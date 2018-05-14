@@ -675,7 +675,7 @@ Change widths as necessary
     .g4{display:inline;text-align:justify;text-justify:inter-word;}
 
  /* 2 COLUMN GRID */
- .g1 {width:48.0%}
+ .g1 {width:24.0%}
  .g2 {width:48.0%}
  .g3 {width:98.0%}
  .g4 {width:98.0%}
@@ -700,7 +700,7 @@ Change widths as necessary
   padding-top: 20px;
 }
   /* 3 COLUMN GRID */
-  .g1 {width:31.333%}
+  .g1 {width:22.333%}
   .g2 {width:64.667%;}
   .g3 {width:98.0%}
   .g4 {width:98.0%}

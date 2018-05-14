@@ -67,7 +67,7 @@
                   <a href="#projects"><i class="fa fa-code"></i><span> Projects </span></a>
                 </li>
                 <li class='tab'>
-                  <a href="#pubs"><i class="fa fa-book"></i><span> Publications </span></a>
+                  <a href="#pubs"><i class="fa fa-book"></i><span> Contributions </span></a>
                 </li>
                 <li class='tab'>
                   <a href="#contact"><i class="fa fa-envelope"></i><span> Contact</span></a>
@@ -85,15 +85,15 @@
                                     SAI HEMACHANDRA VEMPRALA
                                 </h4>
                                 <p align="justify">
-                                    I am currently a PhD candidate at the Texas A&M University and a research assistant in the <a href="https://unmanned.tamu.edu">Unmanned Systems Lab</a>, headed by <a href="https://engineering.tamu.edu/mechanical/people/saripalli">Dr. Srikanth Saripalli</a>. My primary research deals with collaborative localization and navigation for groups of unmanned aerial vehicles through vision. Alongside, I have also worked briefly on unmanned ground vehicles, humanoid robots, computer vision for intelligent systems and deep learning.
+                                    I am currently a PhD candidate at the Texas A&M University and a research assistant in the <a href="https://unmanned.tamu.edu">Unmanned Systems Lab</a>, headed by <a href="https://engineering.tamu.edu/mechanical/people/saripalli">Dr. Srikanth Saripalli</a>. My primary research deals with collaborative localization and navigation for groups of unmanned aerial vehicles through vision. Over the past five years of my PhD, I have also worked briefly on unmanned ground vehicles, humanoid robots, computer vision for intelligent systems and deep learning. 
 
-                                    Part of my PhD program was at the Arizona State University, where I was a research assistant in the Autonomous Systems Research Lab, also under Dr. Saripalli. During my PhD years, I spent the summer of 2016 as a robotics intern in Millennium Engineering at the NASA Ames Research Center. As an intern, I helped develop localization and autonomous navigation pipelines for a quadrotor platform in challenging GPS-denied environments.
+                                    I spent part of my PhD program at the Arizona State University as a research assistant in the Autonomous Systems Research Lab, also under Dr. Saripalli. During my PhD years, I spent the summer of 2016 as a robotics intern in Millennium Engineering at the NASA Ames Research Center. As an intern, I helped develop localization and autonomous navigation pipelines for a quadrotor UAV to navigate challenging subterranean, GPS-denied environments.
                                 </p>
                                 <p align="justify">
                                     Prior to my PhD, I received my Master of Science in Electrical Engineering from the Arizona State University in 2013. During these years, I was part of the Extreme Environment Robotics Lab (EERL) at ASU, headed by the late <a href="https://www-robotics.jpl.nasa.gov/people/Alberto_Behar/">Dr. Alberto Behar</a>. As part of the EERL team, I worked on developing software and low-level firmware for the <a href="http://www.wissard.org/node/259">Micro Subglacial Lake Exploration Device</a> (MSLED), an underwater robot for exploring subglacial lakes in Antarctica that was deployed as part of the Whillans Ice Stream Subglacial Access Research Drilling (WISSARD) expedition. Parallelly, I was involved in developing hardware and software for a remote volcano monitoring system named <a href="https://dtm.carnegiescience.edu/research/projects/bento">BENTO</a>, for which project I was also the team lead. During my master's, I also worked as a Firmware Engineering Intern at the Intel Corporation during the summer of 2013: where I designed low level firmware for the Intel's BioSport headset.
                                 </p>
                                 <p align="justify">
-                                    My undergraduate degree was in Electrical and Electronics Engineering from the JNTU Hyderabad, India, from which I graduated in 2011. During my undergraduate program, I worked on computational analysis of electrical distribution systems. &nbsp;
+                                    My undergraduate degree was in Electrical and Electronics Engineering from the JNTU Hyderabad, India, from which I graduated in 2011. During my undergraduate program, I worked on developing algorithms for computational analysis of electrical distribution systems. &nbsp;
                                     </p>
 
                                 </p>
@@ -137,6 +137,7 @@
                                   <p align="justify">
                                       - Primary PhD research: Collaborative localization and navigation for micro aerial vehicle swarms using vision. <br>
                                       - Developing a computer vision based cancer tumor tracking system in collaboration with Mayo Clinic Arizona. <br>
+                                      - Winner of the 2018 TAMU Data Science contest: developed predictive models for taxi revenue using existing public domain data from the city of Chicago. 
                                   </p>
                               </li>
                                 <li>
@@ -157,9 +158,9 @@
                                     </h6>
                                     <p align="justify">
 
-                                            - Developed the software architecture for sensing and communication onboard a quadrotor UAV and developed a framework for estimation and navigation in GPS denied environments. <br> 
-                                            - Worked on developing a 6DOF Simulink model for simulation of a fixed wing UAV. <br> 
-                                            - Implemented attitude stabilization on open source autopilot hardware for an experimental unmanned aircraft.
+                                        - Developed the software architecture for sensing and communication for a quadrotor UAV and developed a framework for estimation and navigation in subterranean GPS denied environments. <br> 
+                                        - Worked on developing a 6DOF Simulink model for simulation of a fixed wing UAV. <br> 
+                                        - Implemented attitude stabilization on open source autopilot hardware for an experimental unmanned aircraft.
                                     </p>
                                 </li>
                                 <li>
@@ -250,7 +251,7 @@
                                 <img style="vertical-align:middle" src="images/coplan.png" width="300" height="150" style="margin: 15px 0px">
                             </div>
                             <p>
-                                In this part of my research, I investigate the idea of collaborative uncertainty-aware path planning for vision based micro aerial vehicles. For vehicles that are equipped with cameras and can localize collaboratively, a set of heuristics are defined which, when given an image or a set of images, can encode the quality of localization of the vehicles that can be obtained using them. Evolutionary algorithms are integrated with an RRT based path planning framework to result in plans which allow the vehicles to navigate intelligently towards areas that can improve their localization accuracy: such as moving only in well-lit locations, observing texture-rich objects etc.
+                                In this project that forms the second part of my PhD thesis, I investigate the idea of collaborative uncertainty-aware path planning for vision based micro aerial vehicles. For vehicles that are equipped with cameras and can localize collaboratively (see below), a heuristic based approach attempts to capture the estimated "quality" of localization from various viewpoints. Evolutionary algorithms are integrated with an RRT based path planning framework to result in plans which allow the vehicles to navigate intelligently towards areas that can improve their vision based  localization accuracy: such as moving only in well-lit locations, observing texture-rich objects etc.
                             </p>
                         </div>
 
@@ -261,7 +262,7 @@
                                 <img style="vertical-align:middle" src="images/cl.png" width="300" height="150" style="margin: 15px 0px">
                             </div>
                             <p>
-                                I am currently working on developing a collaborative localization pipeline that is applicable for a swarm of multirotor aerial vehicles with a monocular camera as the only sensor required on each vehicle. Feature detection and matching are performed between the individual views, thus allowing for reconstruction of the surrounding environment which is then used for localizing the moving vehicles within a group. The vehicles are also capable of computing relative poses between each other and fusing them with individual pose estimation for enhanced accuracy. 
+                                As the first part of my PhD thesis, I am developing a collaborative localization pipeline that is applicable for a swarm of multirotor aerial vehicles with each vehicle using a monocular camera as its primary sensor. Feature detection and matching are performed between the individual views, thus allowing for reconstruction of the surrounding environment which is then used for localizing the moving vehicles within a group. The vehicles are also capable of computing relative poses between each other and fusing them with individual pose estimation occasionally for enhanced accuracy. GPU acceleration of the feature detection and matching algorithms allows for fast localization.
                             </p>
                         </div>
 
@@ -272,7 +273,7 @@
                                 <img style="vertical-align:middle" src="images/rtt.png" width="300" height="150" style="margin: 15px 0px">
                             </div>
                             <p>
-                                In collaboration with Mayo Clinic Arizona, I am working on developing a fully real time computer vision based tracking system for cancer tumors. The target application is to control a state-of-the-art proton beam targeting system according to tumor motion arising from the breathing cycles of the patient and other kinds of natural organ motion. Computer vision techniques such as normalized cross correlation, image saliency maps etc. are utilized to track tiny fiducials implanted in the tumors through X-ray fluoroscopy. The tracking method is able to handle high amounts of noise and various types of markers in order to achieve accurate and real time tracking.
+                                In collaboration with Mayo Clinic Arizona, I am working on developing a fully real-time computer vision based tracking system for cancer tumors. The target application is to control a state-of-the-art proton beam targeting system according to tumor motion which is caused by the breathing cycles of the patient and other kinds of natural organ motion. Computer vision techniques such as normalized cross correlation, image saliency maps etc. are utilized to track tiny fiducials implanted in the tumors through X-ray fluoroscopy. The tracking method is able to handle high amounts of noise and various types of markers in order to achieve accurate and real time tracking.
                             </p>
                         </div>
 
@@ -288,14 +289,13 @@
                         </div>
                         <hr>
 
-
                         <div class="g4">
                             <h4> Micro Subglacial Lake Exploration Device </h4>
                             <div style="float: right;">
                                 <img style="vertical-align:middle" src="images/ms.png" width="300" height="150" style="margin: 15px 0px">
                             </div>
                             <p>
-                                As part of a team at the Extreme Environment Robotics Laboratory, I worked on the development of onboard firmware and ground station software for a subglacial lake and aquatic exploration robot called MSLED. MSLED consists of a submersible mothership/explorer combination, and uses MEMS sensor and imaging technologies to investigate deep, remote and chemically challenging aquatic environments. MSLED was deployed successfully twice in Lake McMurdo, Antarctica as part of the WISSARD program, while WISSARD played a crucial role in the <a href="https://www.nsf.gov/news/news_summ.jsp?cntn_id=132267">discovery of subglacial life under the Antarctic ice</a>.
+                                As part of a team at the Extreme Environment Robotics Laboratory, I worked on the development of onboard firmware (Arduino) and ground station software (C#/.NET) for a subglacial lake and aquatic exploration robot called MSLED. MSLED consists of a submersible mothership/explorer combination, and uses MEMS sensor and imaging technologies to investigate deep, remote and chemically challenging aquatic environments. MSLED was deployed successfully twice in Lake McMurdo, Antarctica as part of the WISSARD program, while WISSARD played a crucial role in the <a href="https://www.nsf.gov/news/news_summ.jsp?cntn_id=132267">discovery of subglacial life under the Antarctic ice</a>.
                             </p>
                         </div>
                         <hr>
@@ -387,9 +387,24 @@ Autonomous exploration and navigation strategies for MAVs</a>. <em>AHS Internati
                          </div>
                        </div>
 
+                       <div class="g1">
+                        <div class="sny-icon-box">
+                            <a target="_blank" href="https://www.github.com/saihv">
+                          <div class="sny-icon">
+                             <i class="fa fa-github"></i>
+                           </div>
+                            </a>
+                           <div class="sny-icon-content">
+                             <h4>
+                                   GitHub
+                             </h4>
+                           </div>
+                        </div>
+                      </div>
 
 
-                        <div class="g1" align="center">
+
+                        <div class="g1">
                          <div class="sny-icon-box">
 
                             <div class="sny-icon">
