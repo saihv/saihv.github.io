@@ -262,7 +262,7 @@
                                 <img style="vertical-align:middle" src="images/cl.png" width="300" height="150" style="margin: 15px 0px">
                             </div>
                             <p>
-                                As the first part of my PhD thesis, I am developing a collaborative localization pipeline that is applicable for a swarm of multirotor aerial vehicles with each vehicle using a monocular camera as its primary sensor. Feature detection and matching are performed between the individual views, thus allowing for reconstruction of the surrounding environment which is then used for localizing the moving vehicles within a group. The vehicles are also capable of computing relative poses between each other and fusing them with individual pose estimation occasionally for enhanced accuracy. GPU acceleration of the feature detection and matching algorithms allows for fast localization.
+                                As the first part of my PhD thesis, I am developing a collaborative localization pipeline that is applicable for a swarm of multirotor aerial vehicles with each vehicle using a monocular camera as its primary sensor. Images are captured continuously from each vehicle and Feature detection and matching are performed between the individual views, thus allowing for reconstruction of the surrounding environment. This sparse reconstruction is then used by the vehicles for individual localization in a decentralized fashion. The vehicles are also capable of computing relative poses between each other and fusing them with individual pose estimation occasionally for enhanced accuracy. I am currently working on a GPU accelerated feature extraction and matching pipeline for faster processing.
                             </p>
                         </div>
 
@@ -273,7 +273,7 @@
                                 <img style="vertical-align:middle" src="images/rtt.png" width="300" height="150" style="margin: 15px 0px">
                             </div>
                             <p>
-                                In collaboration with Mayo Clinic Arizona, I am working on developing a fully real-time computer vision based tracking system for cancer tumors. The target application is to control a state-of-the-art proton beam targeting system according to tumor motion which is caused by the breathing cycles of the patient and other kinds of natural organ motion. Computer vision techniques such as normalized cross correlation, image saliency maps etc. are utilized to track tiny fiducials implanted in the tumors through X-ray fluoroscopy. The tracking method is able to handle high amounts of noise and various types of markers in order to achieve accurate and real time tracking.
+                                In collaboration with Mayo Clinic Arizona, I am working on developing a fully real-time computer vision based tracking system for cancer tumors. The target application is to control a state-of-the-art proton beam targeting system according to tumor motion which is caused by the breathing cycles of the patient and other kinds of natural organ motion. It is common practice to embed tiny fiducial markers in the tumors in order to be visible in the X-ray spectrum. Computer vision techniques such as normalized cross correlation, image saliency maps etc. are utilized in conjunction with kernelized cross-correlation filters to track these tiny markers during X-ray fluoroscopy. The tracking method is able to handle high amounts of noise and various types of markers in order to achieve accurate and real time tracking.
                             </p>
                         </div>
 
@@ -284,7 +284,7 @@
                                 <img style="vertical-align:middle" src="images/dacCHANGE.png" width="300" height="150" style="margin: 15px 0px">
                             </div>
                             <p>
-                                In 2018, I led a team of graduate students that participated in the 2018 DAC System Design contest. The objective of the contest was to design a machine learning pipeline that can classify and detect objects in a multi-class custom dataset. The primary requirement was that the pipeline needs to run at a speed of >20 FPS on a Jetson TX2, while maximizing intersection-over-union (IoU) and minimizing power consumption. We constructed an object detection/classification pipeline using the Tiny YOLO v2 model, along with several Jetson-specific optimizations in order to achieve 21 FPS of detection speed and over 80% IoU in validation. Our team achieved a top 5 finish in the contest out of 61 teams worldwide. 
+                                In 2018, I led a team of graduate students that participated in the 2018 DAC System Design contest. The objective of the contest was to design a machine learning pipeline that can classify and detect objects in a multi-class custom dataset. The primary requirement was that the pipeline needs to run at a speed of >20 FPS on an NVIDIA Jetson TX2, while maximizing intersection-over-union (IoU) and minimizing power consumption. We constructed an object detection/classification pipeline using the Tiny YOLO v2 model, which was implemented on the TX2, along with several Jetson-specific optimizations in order to achieve 21 FPS of detection speed and over 80% IoU in validation. Evaluated over all these metrics, our team achieved a top 5 finish in the contest out of 61 teams worldwide. 
                             </p>
                         </div>
 
@@ -295,7 +295,7 @@
                                 <img style="vertical-align:middle" src="images/ar.png" width="300" height="150" style="margin: 15px 0px">
                             </div>
                             <p>
-                                Ars Robotica was a collaboration between artists, theater performers and roboticists: to understand the fluidity and expressiveness of human movement and the possibility of its reproduction by robotic platforms. Using the Rethink Robotics Baxter as a test platform, we worked on defining and achieving human-like movement on the robot. We obtained training data from human performers through sensors all the way from a Microsoft Kinect to a 12 camera Optitrack system; which we then used to define a vocabulary of human motion. We later managed to express complex movements as a temporal combination of primitives: thus helping create a framework for autonomous interpretation and expression of human-like motion through Baxter.
+                                Ars Robotica was a collaboration between artists, theater performers and roboticists: to understand the fluidity and expressiveness of human movement and the possibility of its reproduction by robotic platforms. Using the Rethink Robotics Baxter as a test platform, we worked on defining and achieving human-like movement on the robot. We obtained movement data from expert human performers through various sensors: all the way from a Microsoft Kinect to a 12 camera high-precision, Optitrack system; which we then used as training data to construct "primitives", thus forming a vocabulary for motion. We later managed to express complex movements as a temporal combination of such primitives: thus helping create a framework for autonomous interpretation and expression of human-like motion through Baxter.
                             </p>
                         </div>
                         <hr>
@@ -306,7 +306,7 @@
                                 <img style="vertical-align:middle" src="images/ms.png" width="300" height="150" style="margin: 15px 0px">
                             </div>
                             <p>
-                                As part of a team at the Extreme Environment Robotics Laboratory, I worked on the development of onboard firmware (Arduino) and ground station software (C#/.NET) for a subglacial lake and aquatic exploration robot called MSLED. MSLED consists of a submersible mothership/explorer combination, and uses MEMS sensor and imaging technologies to investigate deep, remote and chemically challenging aquatic environments. MSLED was deployed successfully twice in Lake McMurdo, Antarctica as part of the WISSARD program, while WISSARD played a crucial role in the <a href="https://www.nsf.gov/news/news_summ.jsp?cntn_id=132267">discovery of subglacial life under the Antarctic ice</a>.
+                                As part of a team at the Extreme Environment Robotics Laboratory, I worked on the development of onboard firmware (Arduino) and ground station software (C#/.NET) for a subglacial lake and aquatic exploration robot called MSLED. MSLED consists of a submersible mothership/explorer combination, and uses MEMS sensor and imaging technologies to investigate deep, remote and chemically challenging aquatic environments. Its sensory payload consists of a camera, inertial measurement unit, CTD sensor, data from which is transferred to the surface through a fiber optic cable. MSLED was deployed successfully twice in Lake McMurdo, Antarctica as part of the WISSARD program, while WISSARD played a crucial role in the <a href="https://www.nsf.gov/news/news_summ.jsp?cntn_id=132267">discovery of subglacial life under the Antarctic ice</a>.
                             </p>
                         </div>
                         <hr>
@@ -328,16 +328,17 @@
 
                 <h4 id="papers">Papers</h4>
   <ul>
-      <li>Sai Vemprala, Srikanth Saripalli, "Monocular Vision based Collaborative Localization for Micro Aerial Vehicle Swarms", <em>IEEE International Conference on Unmanned Aerial Systems (ICUAS) 2018 (accepted, pending publication).</em></li>
-      <li>Sai Vemprala, Srikanth Saripalli, "Uncertainty-aware Planning for Vision Based Multirotor Swarms", <em>AHS International's 74th Annual Forum (accepted, pending publication).</em></li>
-      <li>Sai Vemprala, Srikanth Saripalli, "Vision based Collaborative Path Planning for Micro Aerial Vehicles", <em>IEEE International Conference on Robotics and Automation 2018 (accepted, pending publication).</em></li>
-      <li>Sai Vemprala, Srikanth Saripalli. <a target="_blank" href="docs/swarms.pdf">"Vision Based Collaborative Localization for MAV Swarms"</a>. <em>AHS International's 73rd Annual Forum, 2017.</em></li>
-      <li>Sai Vemprala, Srikanth Saripalli. <a target="_blank" href="docs/iros16.pdf">"Vision Based Collaborative Localization of Multirotor Vehicles"</a>. <em>IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) 2016.</em></li>
-      <li>Alberto E. Behar, Daming D. Chen, [et al. including Sai H. Vemprala].  <a target="_blank" href="docs/msled.pdf">MSLED: The Micro Subglacial Lake Exploration Device</a>. <em>Underwater Technology, 33.1, 2015.</em></li>
-      <li>Sai Vemprala, Srikanth Saripalli. <a target="_blank" href="docs/ahs.pdf">
-Autonomous exploration and navigation strategies for MAVs</a>. <em>AHS International Specialists' Meeting on Unmanned Rotorcraft System 2015</em></li>
-      <li> Ravi Babu P., Kumar M.P.V.V.R., Hemachandra V.S., Vanamali M.P.R. A Novel Power Flow Solution Methodology for Large Radial Distribution Systems</a>. <em>IEEE International Conference on Computational Technologies SIBIRCON 2010.</em> </li>
-      <li> Ravi Babu P., Vanamali M.P.R., Kumar M.P.V.V.R., Hemachandra V.S.. Distribution System Network Reconfiguration using L-E Method</a>. <em>Annual IEEE India Conference 2010.</em> </li>
+       <li>Sai Vemprala, Srikanth Saripalli, Carlos Vargas, Martin Bues, Yanle Hu, Jiajian Shen. <strong> "Real-time Tumor Tracking for Pencil Beam Scanning Proton Therapy"</strong>, <em>IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) 2018 (accepted, pending publication).</em></li>
+      <li>Adrian Carrio, Sai Vemprala, Andres Ripoll, Srikanth Saripalli, Pascual Campoy. <strong> "Drone Detection using Depth Maps"</strong>, <em>IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) 2018 (accepted, pending publication).</em></li>
+      <li>Sai Vemprala, Srikanth Saripalli. <strong>"Monocular Vision based Collaborative Localization for Micro Aerial Vehicle Swarms"</strong>, <em>IEEE International Conference on Unmanned Aerial Systems (ICUAS) 2018 (accepted, pending publication).</em></li>
+      <li>Sai Vemprala, Srikanth Saripalli. <strong>"Uncertainty-aware Planning for Vision Based Multirotor Swarms"</strong>, <em>AHS International's 74th Annual Forum (accepted, pending publication).</em></li>
+      <li>Sai Vemprala, Srikanth Saripalli. <strong>"Vision based Collaborative Path Planning for Micro Aerial Vehicles"</strong>, <em>IEEE International Conference on Robotics and Automation 2018 (accepted, pending publication).</em></li>
+      <li>Sai Vemprala, Srikanth Saripalli. <a target="_blank" href="docs/swarms.pdf"><strong>"Vision Based Collaborative Localization for MAV Swarms"</strong></a>. <em>AHS International's 73rd Annual Forum, 2017.</em></li>
+      <li>Sai Vemprala, Srikanth Saripalli. <a target="_blank" href="docs/iros16.pdf"><strong>"Vision Based Collaborative Localization of Multirotor Vehicles"</strong></a>. <em>IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) 2016.</em></li>
+      <li>Alberto E. Behar, Daming D. Chen, [et al. including Sai H. Vemprala].  <a target="_blank" href="docs/msled.pdf"><strong>MSLED: The Micro Subglacial Lake Exploration Device</strong></a>. <em>Underwater Technology, 33.1, 2015.</em></li>
+      
+      <li> Ravi Babu P., Kumar M.P.V.V.R., Hemachandra V.S., Vanamali M.P.R. <strong>"A Novel Power Flow Solution Methodology for Large Radial Distribution Systems"</strong></a>. <em>IEEE International Conference on Computational Technologies SIBIRCON 2010.</em> </li>
+      <li> Ravi Babu P., Vanamali M.P.R., Kumar M.P.V.V.R., Hemachandra V.S. <strong>"Distribution System Network Reconfiguration using L-E Method"</strong></a>. <em>Annual IEEE India Conference 2010.</em> </li>
   </ul>
 
   <h4 id="posters">Posters</h4>
@@ -348,18 +349,19 @@ Autonomous exploration and navigation strategies for MAVs</a>. <em>AHS Internati
 
   <h4 id="posters">Patents</h4>
   <ul>
-    <li>US 20170034618 A1: <strong>System and method for data transmission and power supply capability over an audio jack for mobile devices</strong>; 	Indira Negi, Lakshman Krishnamurthy, Brian K. Vogel, Darren S. Crews, Sai H. Vemprala, Xiaochao Yang, Howard D. Millett, Alexander Essaian, Alanson P. Sample (Intel Corp.)</li>
-    <li>US 20160192039 A1: <strong>System and method for device action and configuration based on user context detection from sensors in peripheral devices </strong>; Indira Negi, Lakshman Krishnamurthy, Fuad Al-Amin, Xiaochao Yang, Brian K. Vogel, Jun Li, Alexander Essaian, Sai H. Vemprala, Donnie H. Kim, Lama Nachman, Haibin Liu (Intel Corp.)</li>
+    <li>US 20170034618 A1: <strong>System and method for data transmission and power supply capability over an audio jack for mobile devices</strong>; 	Indira Negi, Lakshman Krishnamurthy, Brian K. Vogel, Darren S. Crews, Sai H. Vemprala, Xiaochao Yang, Howard D. Millett, Alexander Essaian, Alanson P. Sample (Intel Corp.: filed, pending)</li>  
+    <li>US 20160192039 A1: <strong>System and method for device action and configuration based on user context detection from sensors in peripheral devices </strong>; Indira Negi, Lakshman Krishnamurthy, Fuad Al-Amin, Xiaochao Yang, Brian K. Vogel, Jun Li, Alexander Essaian, Sai H. Vemprala, Donnie H. Kim, Lama Nachman, Haibin Liu (Intel Corp.: filed pending)</li>
   </ul>
 
   <h4 id="others">Other presentations</h4>
   <ul>
-    <li>Sai Vemprala. Sampling based Path Planning for Unmanned Aerial Vehicles. <em>IROS 2017 Workshop on Complex Collaborative Systems. </em>Vancouver, Canada, 2017.</li>
-    <li>Sai Vemprala, Srikanth Saripalli. Vision based MAV Swarms in a Photorealistic Simulation Framework.  <em>1st International Symposium on Aerial Robotics.</em> Philadelphia, USA, 2017. </li>
-    <li>Andres Mora, Sai Vemprala, Adrian Carrio, Srikanth Saripalli. Flight performance assessment of land
-        surveying trajectories for multiple UAV platforms</a>. <em>Workshop on Research, Education and Development of Unmanned Aerial Systems, RED-UAS 2015.</em> Cancun, Mexico, 2015.</li>
-    <li>Lance Gharavi, Srikanth Saripalli, Sai Vemprala, Matthew Ragan, Ian Shelanskey. Ars Robotica. <em>Exemplar project at the a2ru National Conference</em> Virginia, USA, 2015.</li>
-    <li>Alberto Behar, Sai Vemprala. BENTO: Volcanic monitoring. <em>Deep Carbon Observatory Sandpit Workshop on Gas Instrumentation.</em> Sicily, Italy, 2013.</li>
+    <li>Sai Vemprala. <strong>Sampling based Path Planning for Unmanned Aerial Vehicles</strong>. <em>IROS 2017 Workshop on Complex Collaborative Systems. </em>Vancouver, Canada, 2017.</li>
+    <li>Sai Vemprala, Srikanth Saripalli. <strong>Vision based MAV Swarms in a Photorealistic Simulation Framework. </strong> <em>1st International Symposium on Aerial Robotics.</em> Philadelphia, USA, 2017. </li>
+    <li>Andres Mora, Sai Vemprala, Adrian Carrio, Srikanth Saripalli. <strong>Flight performance assessment of land
+        surveying trajectories for multiple UAV platforms</strong></a>. <em>Workshop on Research, Education and Development of Unmanned Aerial Systems, RED-UAS 2015.</em> Cancun, Mexico, 2015.</li>
+    <li>Lance Gharavi, Srikanth Saripalli, Sai Vemprala, Matthew Ragan, Ian Shelanskey. <strong>Ars Robotica</strong>. <em>Exemplar project at the a2ru National Conference</em> Virginia, USA, 2015.</li>
+    <li>Sai Vemprala, Srikanth Saripalli. <strong>Autonomous exploration and navigation strategies for MAVs</strong></a>. <em>AHS International Specialists' Meeting on Unmanned Rotorcraft System 2015</em></li>
+    <li>Alberto Behar, Sai Vemprala. <strong>BENTO: Volcanic monitoring</strong>. <em>Deep Carbon Observatory Sandpit Workshop on Gas Instrumentation.</em> Sicily, Italy, 2013.</li>
   </ul>
 
                 </div>
