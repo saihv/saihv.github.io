@@ -70,6 +70,9 @@
                   <a href="#pubs"><i class="fa fa-book"></i><span> Contributions </span></a>
                 </li>
                 <li class='tab'>
+                    <a href="#achieve"><i class="fa fa-trophy"></i><span> Achievements </span></a>
+                  </li>
+                <li class='tab'>
                   <a href="#contact"><i class="fa fa-envelope"></i><span> Contact</span></a>
                 </li>
             </ul>
@@ -108,7 +111,7 @@
                                 <ul>
                                     <li>   <img src="images/sai.png" width="200" height="235"> </li>
                                     <li>
-                                        <a target="_blank" href="SaiVemprala_CV.pdf"> Download CV (PDF)</a>
+                                        <a target="_blank" href="SaiHVemprala_CV.pdf"> Download CV (PDF)</a>
                                     </li>
                                 </ul>
 
@@ -279,12 +282,14 @@
 
                         <hr>
                         <div class="g4">
-                            <h4> High-speed, Low Power Object Detection </h4>
+                            <h4> Drone Detection through Depth Images </h4>
                             <div style="float: right;">
-                                <img style="vertical-align:middle" src="images/dacCHANGE.png" width="300" height="150" style="margin: 15px 0px">
+                                <img style="vertical-align:middle" src="images/drdet.png" width="300" height="150" style="margin: 15px 0px">
                             </div>
                             <p>
-                                In 2018, I led a team of graduate students that participated in the 2018 DAC System Design contest. The objective of the contest was to design a machine learning pipeline that can classify and detect objects in a multi-class custom dataset. The primary requirement was that the pipeline needs to run at a speed of >20 FPS on an NVIDIA Jetson TX2, while maximizing intersection-over-union (IoU) and minimizing power consumption. We constructed an object detection/classification pipeline using the Tiny YOLO v2 model, which was implemented on the TX2, along with several Jetson-specific optimizations in order to achieve 21 FPS of detection speed and over 80% IoU in validation. Evaluated over all these metrics, our team achieved a top 5 finish in the contest out of 61 teams worldwide. 
+                                In collaboration with researchers from Universidad Politecnica de Madrid and MIT's ACL lab, I am working on a framework for detecting and localizing multirotor UAVs using depth images. A specific advantage of depth sensing versus other detection methods is that a depth map is able to provide 3D relative
+                                localization of the objects of interest, making it easier to develop strategies such as collision avoidance. In our work, a dataset of synthetic depth maps of drones has been first generated in the Microsoft AirSim UAV simulator and used to train a state-of-the-art deep learning-based drone detection model. The proposed detection technique, while trained only on simulation, has been validated in several real-life depth map sequences. It also generalizes well to multiple types of drones flying at up to 2 m/s, achieving an average precision of 98.7%, an average recall of 74.7% and a record detection
+                                range of 9.5 meters.
                             </p>
                         </div>
 
@@ -328,15 +333,16 @@
 
                 <h4 id="papers">Papers</h4>
   <ul>
-      <li>Sai Vemprala, Srikanth Saripalli, Carlos Vargas, Martin Bues, Yanle Hu, Jiajian Shen. <strong> "Real-time Tumor Tracking for Pencil Beam Scanning Proton Therapy"</strong>, <em>IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) 2018 (accepted, pending publication).</em></li>
-      <li>Adrian Carrio, Sai Vemprala, Andres Ripoll, Srikanth Saripalli, Pascual Campoy. <a target="_blank" href="https://arxiv.org/abs/1808.00259"><strong> "Drone Detection using Depth Maps"</strong></a>, <em>IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) 2018 (accepted, pending publication).</em></li>
-      <li>Sai Vemprala, Srikanth Saripalli. <a target="_blank" href="https://arxiv.org/abs/1804.02510"><strong>"Monocular Vision based Collaborative Localization for Micro Aerial Vehicle Swarms"</strong></a>, <em>IEEE International Conference on Unmanned Aerial Systems (ICUAS) 2018 (accepted, pending publication).</em></li>
-      <li>Sai Vemprala, Srikanth Saripalli. <strong>"Uncertainty-aware Planning for Vision Based Multirotor Swarms"</strong>, <em>AHS International's 74th Annual Forum (accepted, pending publication).</em></li>
-      <li>Sai Vemprala, Srikanth Saripalli. <strong>"Vision based Collaborative Path Planning for Micro Aerial Vehicles"</strong>, <em>IEEE International Conference on Robotics and Automation 2018 (accepted, pending publication).</em></li>
-      <li>Sai Vemprala, Srikanth Saripalli. <a target="_blank" href="docs/swarms.pdf"><strong>"Vision Based Collaborative Localization for MAV Swarms"</strong></a>. <em>AHS International's 73rd Annual Forum, 2017.</em></li>
-      <li>Sai Vemprala, Srikanth Saripalli. <a target="_blank" href="docs/iros16.pdf"><strong>"Vision Based Collaborative Localization of Multirotor Vehicles"</strong></a>. <em>IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) 2016.</em></li>
-      <li>Alberto E. Behar, Daming D. Chen, [et al. including Sai H. Vemprala].  <a target="_blank" href="docs/msled.pdf"><strong>MSLED: The Micro Subglacial Lake Exploration Device</strong></a>. <em>Underwater Technology, 33.1, 2015.</em></li>
-      
+      <li>Sai Vemprala, Srikanth Saripalli, Carlos Vargas, Martin Bues, Yanle Hu, Jiajian Shen. <a target="_blank" href="docs/mayo.pdf"><strong> "Real-time Tumor Tracking for Pencil Beam Scanning Proton Therapy"</strong></a>, <em> 2018 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2018), Madrid, Spain, 2018, pp. 4434-4440.</em></li>
+      <li>Adrian Carrio, Sai Vemprala, Andres Ripoll, Srikanth Saripalli, Pascual Campoy. <a target="_blank" href="https://arxiv.org/abs/1808.00259"><strong> "Drone Detection using Depth Maps"</strong></a>, <em>2018 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2018), Madrid, Spain, 2018, pp. 1034-1037.</em></li>
+      <li>Sai Vemprala, Srikanth Saripalli. <a target="_blank" href="https://arxiv.org/abs/1804.02510"><strong>"Monocular Vision based Collaborative Localization for Micro Aerial Vehicle Swarms"</strong></a>, <em>18th IEEE International Conference on Unmanned Aerial Systems (ICUAS 2018), Dallas, USA, 2018, pp. 315-323.</em></li>
+      <li>Sai Vemprala, Srikanth Saripalli. <strong>"Uncertainty-aware Planning for Vision Based Multirotor Swarms"</strong>, <em>Proceedings of the AHS International 74th Annual Forum, Phoenix, USA, 2017, pp.
+        1774-1783.</em></li>
+      <li>Sai Vemprala, Srikanth Saripalli. <a target="_blank" href="docs/icra18.pdf"><strong>"Vision based Collaborative Path Planning for Micro Aerial Vehicles"</strong></a>, <em>2018 IEEE International Conference on Robotics and Automation (ICRA), Brisbane, Australia, 2018, pp. 1-7.</em></li>
+      <li>Sai Vemprala, Srikanth Saripalli. <a target="_blank" href="docs/swarms.pdf"><strong>"Vision Based Collaborative Localization for Swarms of Aerial Vehicles"</strong></a>. <em>Proceedings of the AHS International 73rd Annual Forum, Dallas, USA, 2017, pp. 2980-2985.</em></li>
+      <li>Sai Vemprala, Srikanth Saripalli. <a target="_blank" href="docs/iros16.pdf"><strong>"Vision Based Collaborative Localization of Multirotor Vehicles"</strong></a>. <em>2016
+        IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), Daejeon, South Korea, 2016, pp. 1653-1658.</em></li>
+      <li>Alberto E. Behar, Daming D. Chen, [et al. including Sai H. Vemprala].  <a target="_blank" href="docs/msled.pdf"><strong>MSLED: The Micro Subglacial Lake Exploration Device</strong></a>. <em>Underwater Technology, 33.1, 2015.</em></li>      
       <li> Ravi Babu P., Kumar M.P.V.V.R., Hemachandra V.S., Vanamali M.P.R. <strong>"A Novel Power Flow Solution Methodology for Large Radial Distribution Systems"</strong></a>. <em>IEEE International Conference on Computational Technologies SIBIRCON 2010.</em> </li>
       <li> Ravi Babu P., Vanamali M.P.R., Kumar M.P.V.V.R., Hemachandra V.S. <strong>"Distribution System Network Reconfiguration using L-E Method"</strong></a>. <em>Annual IEEE India Conference 2010.</em> </li>
   </ul>
@@ -349,8 +355,8 @@
 
   <h4 id="posters">Patents</h4>
   <ul>
-    <li>US 20170034618 A1: <strong>System and method for data transmission and power supply capability over an audio jack for mobile devices</strong>; 	Indira Negi, Lakshman Krishnamurthy, Brian K. Vogel, Darren S. Crews, Sai H. Vemprala, Xiaochao Yang, Howard D. Millett, Alexander Essaian, Alanson P. Sample (Intel Corp.: filed, pending)</li>  
-    <li>US 20160192039 A1: <strong>System and method for device action and configuration based on user context detection from sensors in peripheral devices </strong>; Indira Negi, Lakshman Krishnamurthy, Fuad Al-Amin, Xiaochao Yang, Brian K. Vogel, Jun Li, Alexander Essaian, Sai H. Vemprala, Donnie H. Kim, Lama Nachman, Haibin Liu (Intel Corp.: filed pending)</li>
+    <li><strong>System and method for data transmission and power supply capability over an audio jack for mobile devices</strong>; Indira Negi, Lakshman Krishnamurthy, Brian K. Vogel, Darren S. Crews, Sai H. Vemprala, Xiaochao Yang, Howard D. Millett, Alexander Essaian, Alanson P. Sample: US Patent 10,165,355 (issued 12/25/2018) </li>  
+    <li><strong>System and method for device action and configuration based on user context detection from sensors in peripheral devices </strong>; Indira Negi, Lakshman Krishnamurthy, Fuad Al-Amin, Xiaochao Yang, Brian K. Vogel, Jun Li, Alexander Essaian, Sai H. Vemprala, Donnie H. Kim, Lama Nachman, Haibin Liu: US Patent 10,117,005 (issued 10/30/2018) </li>
   </ul>
 
   <h4 id="others">Other presentations</h4>
@@ -365,6 +371,29 @@
   </ul>
 
                 </div>
+                <div id="achieve">
+                    <section class="clearfix">
+                        <div class="g4">
+                            
+                                <h5> TAMUHack 2019: Best IoT hack winner</h5>
+                            
+                                <p>
+                                    In 2019, I was part of the team that won the 'Best IoT Hack' category in the annual TAMUHack hackathon. Over 24 hours, we designed a system that performs facial recognition (while making sure it is a real person and not a picture by detecting eye blinks) along with voice verification for password-less authentication. We made use of Microsoft Azure's Cognitive Services API, thus allowing the system to run on low-power hardware. We deployed this system on a Qualcomm Dragonboard SBC.
+                                </p>
+                                <h5> TAMU Data Science contest: 1st place</h5>
+                            
+                                <p>
+                                    In 2018, I won the Texas A&M University's Data Science contest. As part of the contest, I developed predictive models for estimating taxi revenue over time and location using public taxi ride data from the city of Chicago. I implemented ARIMA based forecasting as well as a LSTM-based recurrent neural network to generate accurate predictions, while comparing them with results from packages such as Facebook Prophet.
+                                </p>
+                           <h5> DAC 2018 System Design Contest: Top 5 finish</h5>
+                            
+                            <p>
+                                In 2018, I led a team of graduate students that participated in the 2018 DAC System Design contest. The objective of the contest was to design a machine learning pipeline that can classify and detect objects in a multi-class custom dataset. The primary requirement was that the pipeline needs to run at a speed of >20 FPS on an NVIDIA Jetson TX2, while maximizing intersection-over-union (IoU) and minimizing power consumption. We constructed an object detection/classification pipeline using the Tiny YOLO v2 model, which was implemented on the TX2, along with several Jetson-specific optimizations in order to achieve 21 FPS of detection speed and over 80% IoU in validation. Evaluated over all these metrics, our team achieved a top 5 finish in the contest out of 61 teams worldwide. 
+                            </p>
+                        </div>
+
+                </div>
+
 
               <!-- End Portfolio Data -->
               <!-- Contact Tab Data -->
