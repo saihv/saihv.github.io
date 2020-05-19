@@ -3,48 +3,48 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://localhost:1313/about/</loc>
+    <loc>https://saihv.github.io/about/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/authors/admin/</loc>
+    <loc>https://saihv.github.io/authors/admin/</loc>
   </url>
   
   <url>
-    <loc>http://localhost:1313/posts/post/</loc>
+    <loc>https://saihv.github.io/posts/post/</loc>
   </url>
   
   <url>
-    <loc>http://localhost:1313/authors/</loc>
+    <loc>https://saihv.github.io/authors/</loc>
   </url>
   
   <url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://saihv.github.io/categories/</loc>
   </url>
   
   <url>
-    <loc>http://localhost:1313/exp/</loc>
+    <loc>https://saihv.github.io/exp/</loc>
   </url>
   
   <url>
-    <loc>http://localhost:1313/posts/</loc>
+    <loc>https://saihv.github.io/posts/</loc>
   </url>
   
   <url>
-    <loc>http://localhost:1313/pubs/</loc>
+    <loc>https://saihv.github.io/pubs/</loc>
   </url>
   
   <url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://saihv.github.io/</loc>
   </url>
   
   <url>
-    <loc>http://localhost:1313/research/</loc>
+    <loc>https://saihv.github.io/research/</loc>
   </url>
   
   <url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://saihv.github.io/tags/</loc>
   </url>
   
 </urlset>
