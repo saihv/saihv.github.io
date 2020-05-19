@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Research on Sai Vemprala</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content in Research on Sai Vemprala</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/about/</guid>
+      <description>Hello</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/post/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/post/</guid>
+      <description>I am currently a researcher in the Autonomous Systems group at Microsoft. My areas of focus are aerial robotics, autonomous localization/planning, computer vision and machine learning.
+In 2019, I received my PhD from the Texas A&amp;amp;M University, where I was part of the Unmanned Systems Lab, headed by Dr. Srikanth Saripalli. My PhD thesis was about collaborative localization and navigation for groups of vision based unmanned aerial vehicles. During my PhD years, I spent the summer of 2016 as a robotics intern in Millennium Engineering at the NASA Ames Research Center.</description>
+    </item>
+    
+    <item>
+      <title>Experience</title>
+      <link>http://localhost:1313/exp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/exp/</guid>
+      <description>Researcher : Microsoft Corporation (2019 - present)
+ Researcher in the Autonomous Systems group of the AI &amp;amp; Research division.  Research Assistant : Unmanned Systems Lab, Texas A&amp;amp;M University (2017 - 2019)
+ Primary PhD research: Collaborative localization and navigation for micro aerial vehicle swarms using vision. Developed a computer vision based cancer tumor tracking system in collaboration with Mayo Clinic Arizona. Winner of the 2018 TAMU Data Science contest: developed data-driven predictive models using neural networks.</description>
+    </item>
+    
+    <item>
+      <title>Publications</title>
+      <link>http://localhost:1313/pubs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/pubs/</guid>
+      <description>Preprints  Ratnesh Madaan, Nicholas Gyde, Sai Vemprala, Matthew Brown, Keiko Nagami, Tim Taubner, Eric Cristofalo, Davide Scaramuzza, Mac Schwager, Ashish Kapoor, &amp;ldquo;AirSim Drone Racing Lab&amp;rdquo;. [arxiv | pdf] Tom Hirshberg, Sai Vemprala, Ashish Kapoor, &amp;ldquo;Safety Considerations in Deep Control Policies with Safety Barrier Certificates Under Uncertainty&amp;rdquo;. [arxiv | pdf] Sai Vemprala, Srikanth Saripalli, &amp;ldquo;Collaborative Localization for Micro Aerial Vehicles&amp;rdquo;. [arxiv | pdf]  Journal Papers  Adrian Carrio, Jesus Tordesillas Torres, Sai Vemprala, Srikanth Saripalli, Pascual Campoy, &amp;ldquo;Onboard detection and localization of drones using depth maps&amp;rdquo;, IEEE Access.</description>
+    </item>
+    
+    <item>
+      <title>Research</title>
+      <link>http://localhost:1313/research/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/research/</guid>
+      <description>Uncertainty-aware Planning for Micro Aerial Vehicle Swarms In this project that forms the second part of my PhD thesis, I developed an algorithm for collaborative uncertainty-aware path planning for vision based micro aerial vehicles. For vehicles that are equipped with cameras and can localize collaboratively (see below), I achieved this with a two-phase approach: first, the vehicles collaborate to improve an existing map by choosing better viewpoints, and secondly, create localization-aware path plans.</description>
+    </item>
+    
+  </channel>
+</rss>
