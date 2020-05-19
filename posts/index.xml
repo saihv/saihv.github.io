@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Sai Vemprala</title>
-    <link>https://saihv.github.io/posts/</link>
+    <link>//saihv.github.io/posts/</link>
     <description>Recent content in Posts on Sai Vemprala</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="https://saihv.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="//saihv.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title></title>
-      <link>https://saihv.github.io/posts/post/</link>
+      <link>//saihv.github.io/posts/post/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://saihv.github.io/posts/post/</guid>
+      <guid>//saihv.github.io/posts/post/</guid>
       <description>I am currently a researcher in the Autonomous Systems group at Microsoft. My areas of focus are aerial robotics, autonomous localization/planning, computer vision and machine learning.
 In 2019, I received my PhD from the Texas A&amp;amp;M University, where I was part of the Unmanned Systems Lab, headed by Dr. Srikanth Saripalli. My PhD thesis was about collaborative localization and navigation for groups of vision based unmanned aerial vehicles. During my PhD years, I spent the summer of 2016 as a robotics intern in Millennium Engineering at the NASA Ames Research Center.</description>
     </item>

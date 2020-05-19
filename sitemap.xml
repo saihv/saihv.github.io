@@ -3,48 +3,48 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://saihv.github.io/about/</loc>
+    <loc>//saihv.github.io/about/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://saihv.github.io/authors/admin/</loc>
+    <loc>//saihv.github.io/authors/admin/</loc>
   </url>
   
   <url>
-    <loc>https://saihv.github.io/posts/post/</loc>
+    <loc>//saihv.github.io/posts/post/</loc>
   </url>
   
   <url>
-    <loc>https://saihv.github.io/authors/</loc>
+    <loc>//saihv.github.io/authors/</loc>
   </url>
   
   <url>
-    <loc>https://saihv.github.io/categories/</loc>
+    <loc>//saihv.github.io/categories/</loc>
   </url>
   
   <url>
-    <loc>https://saihv.github.io/exp/</loc>
+    <loc>//saihv.github.io/exp/</loc>
   </url>
   
   <url>
-    <loc>https://saihv.github.io/posts/</loc>
+    <loc>//saihv.github.io/posts/</loc>
   </url>
   
   <url>
-    <loc>https://saihv.github.io/pubs/</loc>
+    <loc>//saihv.github.io/pubs/</loc>
   </url>
   
   <url>
-    <loc>https://saihv.github.io/</loc>
+    <loc>//saihv.github.io/</loc>
   </url>
   
   <url>
-    <loc>https://saihv.github.io/research/</loc>
+    <loc>//saihv.github.io/research/</loc>
   </url>
   
   <url>
-    <loc>https://saihv.github.io/tags/</loc>
+    <loc>//saihv.github.io/tags/</loc>
   </url>
   
 </urlset>
