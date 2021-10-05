@@ -46,7 +46,7 @@ In 2019, I received my PhD from the Texas A&amp;amp;M University, where I was pa
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://www.saihv.com/pubs/</guid>
-      <description>Preprints  Daniel McDuff, Yale Song, Jiyoung Lee, Vibhav Vineet, Sai Vemprala, Nicholas Gyde, Hadi Salman, Shuang Ma, Kwanghoon Sohn, Ashish Kapoor, &amp;ldquo;CausalCity: Complex Simulations with Agency for Causal Discovery and Reasoning&amp;rdquo;. [arxiv] Guillaume Leclerc, Hadi Salman, Andrew Ilyas, Sai Vemprala, Logan Engstrom, Vibhav Vineet, Kai Xiao, Pengchuan Zhang, Shibani Santurkar, Greg Yang, Ashish Kapoor, Aleksander Madry, &amp;ldquo;3DB: A Framework for Debugging Computer Vision Models&amp;rdquo;. [arxiv] Sai Vemprala, Sami Mian, Ashish Kapoor, &amp;ldquo;Representation Learning for Event-based Visuomotor Policies&amp;rdquo;.</description>
+      <description>Preprints  Daniel McDuff, Yale Song, Jiyoung Lee, Vibhav Vineet, Sai Vemprala, Nicholas Gyde, Hadi Salman, Shuang Ma, Kwanghoon Sohn, Ashish Kapoor, &amp;ldquo;CausalCity: Complex Simulations with Agency for Causal Discovery and Reasoning&amp;rdquo;. [arxiv] Guillaume Leclerc, Hadi Salman, Andrew Ilyas, Sai Vemprala, Logan Engstrom, Vibhav Vineet, Kai Xiao, Pengchuan Zhang, Shibani Santurkar, Greg Yang, Ashish Kapoor, Aleksander Madry, &amp;ldquo;3DB: A Framework for Debugging Computer Vision Models&amp;rdquo;. [arxiv]  Journal Papers  Sai Vemprala, Srikanth Saripalli, &amp;ldquo;Collaborative Localization for Micro Aerial Vehicles&amp;rdquo;, IEEE Access, 2021.</description>
     </item>
     
     <item>
@@ -55,7 +55,7 @@ In 2019, I received my PhD from the Texas A&amp;amp;M University, where I was pa
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://www.saihv.com/research/</guid>
-      <description>Uncertainty-aware Planning for Micro Aerial Vehicle Swarms In this project that forms the second part of my PhD thesis, I developed an algorithm for collaborative uncertainty-aware path planning for vision based micro aerial vehicles. For vehicles that are equipped with cameras and can localize collaboratively (see below), I achieved this with a two-phase approach: first, the vehicles collaborate to improve an existing map by choosing better viewpoints, and secondly, create localization-aware path plans.</description>
+      <description>Representation Learning and Reinforcement Learning for Event Cameras Event cameras are novel vision sensors that output fast, asynchronous data about pixel changes instead of conventional frames. This presents a challenge in applying machine learning methods to event cameras, as most learning based methods rely on frame-based inputs and convolutional neural networks. In this work, we present a way to learn representations directly from asynchronous event streams. Through a PointNet styled network coupled with a variational autoencoder, we show that the context from a fast event stream can be compressed into a latent vector, and furthermore, we show that such compressed representations are also beneficial for reinforcement learning.</description>
     </item>
     
   </channel>
