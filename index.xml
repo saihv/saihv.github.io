@@ -2,35 +2,35 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Research on Sai H. Vemprala</title>
-    <link>http://example.org/</link>
+    <link>http://saihv.github.io/</link>
     <description>Recent content in Research on Sai H. Vemprala</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="http://saihv.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
-      <link>http://example.org/posts/post/</link>
+      <link>http://saihv.github.io/posts/post/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/post/</guid>
+      <guid>http://saihv.github.io/posts/post/</guid>
       <description>I am currently a researcher in the Autonomous Systems group at Microsoft. My areas of focus are aerial robotics, autonomous localization/planning, computer vision and machine learning.
 In 2019, I received my PhD from the Texas A&amp;amp;M University, where I was part of the Unmanned Systems Lab, headed by Dr. Srikanth Saripalli. My PhD thesis was about collaborative localization and navigation for groups of vision based unmanned aerial vehicles. During my PhD years, I spent the summer of 2016 as a robotics intern in Millennium Engineering at the NASA Ames Research Center.</description>
     </item>
     
     <item>
       <title>About</title>
-      <link>http://example.org/about/</link>
+      <link>http://saihv.github.io/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/about/</guid>
+      <guid>http://saihv.github.io/about/</guid>
       <description>Hello</description>
     </item>
     
     <item>
       <title>Experience</title>
-      <link>http://example.org/exp/</link>
+      <link>http://saihv.github.io/exp/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/exp/</guid>
+      <guid>http://saihv.github.io/exp/</guid>
       <description>Senior Researcher : Microsoft Corporation (2019 - present)
  Senior Researcher in the Autonomous Systems and Robotics Research group.  Research Assistant : Unmanned Systems Lab, Texas A&amp;amp;M University (2017 - 2019)
  Primary PhD research: Collaborative localization and navigation for micro aerial vehicle swarms using vision. Developed a computer vision based cancer tumor tracking system in collaboration with Mayo Clinic Arizona. Winner of the 2018 TAMU Data Science contest: developed data-driven predictive models using neural networks.</description>
@@ -38,19 +38,19 @@ In 2019, I received my PhD from the Texas A&amp;amp;M University, where I was pa
     
     <item>
       <title>Projects</title>
-      <link>http://example.org/research/</link>
+      <link>http://saihv.github.io/research/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/research/</guid>
+      <guid>http://saihv.github.io/research/</guid>
       <description>Uncertainty-aware Planning for Micro Aerial Vehicle Swarms In this project that forms the second part of my PhD thesis, I investigated the idea of collaborative uncertainty-aware path planning for vision based micro aerial vehicles. For vehicles that are equipped with cameras and can localize collaboratively (see below), a heuristic based approach attempts to capture the estimated &amp;ldquo;quality&amp;rdquo; of localization from various viewpoints. Evolutionary algorithms were integrated with an RRT based path planning framework to result in plans which allow the vehicles to navigate intelligently towards areas that can improve their vision based localization accuracy: such as moving only in well-lit locations, observing texture-rich objects, building denser maps before navigating etc.</description>
     </item>
     
     <item>
       <title>Publications</title>
-      <link>http://example.org/pubs/</link>
+      <link>http://saihv.github.io/pubs/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/pubs/</guid>
+      <guid>http://saihv.github.io/pubs/</guid>
       <description>Preprints  Rogerio Bonatti, Sai Vemprala, Shuang Ma, Felipe Frujeri, Shuhang Chen, Ashish Kapoor. &amp;ldquo;PACT: Perception-Action Causal Transformer for Autoregressive Robotics Pretraining&amp;rdquo;. [arxiv] Arthur Bucker, Luis Figueredo, Sami Haddadin, Shuang Ma, Ashish Kapoor, Sai Vemprala, Rogerio Bonatti. &amp;ldquo;LaTTe: Language Trajectory TransformEr&amp;rdquo;. [arxiv] Cheng Yao Wang, Eyal Ofek, Daniel McDuff, Oron Nir, Sai Vemprala, Ashish Kapoor, Mar Gonzalez-Franco. &amp;ldquo;CityLifeSim: A High-Fidelity Pedestrian and Vehicle Simulation with Complex Behaviors&amp;rdquo;. Weijian Xu, Shuang Ma, Yale Song, Daniel McDuff, Rogerio Bonatti, Sai Vemprala, Chunyuan Li, Jianwei Yang, Vibhav Vineet, Ratnesh Madaan, Ashish Kapoor.</description>
     </item>
     

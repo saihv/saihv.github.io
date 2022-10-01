@@ -2,26 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://example.org/authors/admin/</loc>
+    <loc>http://saihv.github.io/authors/admin/</loc>
   </url><url>
-    <loc>http://example.org/posts/post/</loc>
+    <loc>http://saihv.github.io/posts/post/</loc>
   </url><url>
-    <loc>http://example.org/about/</loc>
+    <loc>http://saihv.github.io/about/</loc>
   </url><url>
-    <loc>http://example.org/authors/</loc>
+    <loc>http://saihv.github.io/authors/</loc>
   </url><url>
-    <loc>http://example.org/categories/</loc>
+    <loc>http://saihv.github.io/categories/</loc>
   </url><url>
-    <loc>http://example.org/exp/</loc>
+    <loc>http://saihv.github.io/exp/</loc>
   </url><url>
-    <loc>http://example.org/posts/</loc>
+    <loc>http://saihv.github.io/posts/</loc>
   </url><url>
-    <loc>http://example.org/research/</loc>
+    <loc>http://saihv.github.io/research/</loc>
   </url><url>
-    <loc>http://example.org/pubs/</loc>
+    <loc>http://saihv.github.io/pubs/</loc>
   </url><url>
-    <loc>http://example.org/</loc>
+    <loc>http://saihv.github.io/</loc>
   </url><url>
-    <loc>http://example.org/tags/</loc>
+    <loc>http://saihv.github.io/tags/</loc>
   </url>
 </urlset>
