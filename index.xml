@@ -37,21 +37,21 @@ In 2019, I received my PhD from the Texas A&amp;amp;M University, where I was pa
     </item>
     
     <item>
-      <title>Projects</title>
-      <link>https://saihv.com/research/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://saihv.com/research/</guid>
-      <description>Uncertainty-aware Planning for Micro Aerial Vehicle Swarms In this project that forms the second part of my PhD thesis, I investigated the idea of collaborative uncertainty-aware path planning for vision based micro aerial vehicles. For vehicles that are equipped with cameras and can localize collaboratively (see below), a heuristic based approach attempts to capture the estimated &amp;ldquo;quality&amp;rdquo; of localization from various viewpoints. Evolutionary algorithms were integrated with an RRT based path planning framework to result in plans which allow the vehicles to navigate intelligently towards areas that can improve their vision based localization accuracy: such as moving only in well-lit locations, observing texture-rich objects, building denser maps before navigating etc.</description>
-    </item>
-    
-    <item>
       <title>Publications</title>
       <link>https://saihv.com/pubs/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://saihv.com/pubs/</guid>
       <description>Preprints  Rogerio Bonatti, Sai Vemprala, Shuang Ma, Felipe Frujeri, Shuhang Chen, Ashish Kapoor. &amp;ldquo;PACT: Perception-Action Causal Transformer for Autoregressive Robotics Pretraining&amp;rdquo;. [arxiv] Arthur Bucker, Luis Figueredo, Sami Haddadin, Shuang Ma, Ashish Kapoor, Sai Vemprala, Rogerio Bonatti. &amp;ldquo;LaTTe: Language Trajectory TransformEr&amp;rdquo;. [arxiv] Cheng Yao Wang, Eyal Ofek, Daniel McDuff, Oron Nir, Sai Vemprala, Ashish Kapoor, Mar Gonzalez-Franco. &amp;ldquo;CityLifeSim: A High-Fidelity Pedestrian and Vehicle Simulation with Complex Behaviors&amp;rdquo;. Weijian Xu, Shuang Ma, Yale Song, Daniel McDuff, Rogerio Bonatti, Sai Vemprala, Chunyuan Li, Jianwei Yang, Vibhav Vineet, Ratnesh Madaan, Ashish Kapoor.</description>
+    </item>
+    
+    <item>
+      <title>Research</title>
+      <link>https://saihv.com/research/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://saihv.com/research/</guid>
+      <description>Data-driven Sensor Simulation for Realistic LiDARs  Contrastive Multimodal Pretraining for Autonomous Systems  3DB: A Framework for Debugging Computer Vision Models  Representation Learning and Reinforcement Learning for Event Cameras Event-based cameras are dynamic vision sensors that can provide asynchronous measurements of changes in per-pixel brightness at a microsecond level. This makes them significantly faster than conventional frame-based cameras, and an appealing choice for high-speed navigation. While an interesting sensor modality, this asynchronous data poses a challenge for common machine learning techniques.</description>
     </item>
     
   </channel>
