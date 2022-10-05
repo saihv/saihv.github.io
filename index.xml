@@ -2,35 +2,35 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Research on Sai H. Vemprala</title>
-    <link>//saihv.com/</link>
+    <link>//saihv.github.io/</link>
     <description>Recent content in Research on Sai H. Vemprala</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="//saihv.com/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="//saihv.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
-      <link>//saihv.com/posts/post/</link>
+      <link>//saihv.github.io/posts/post/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>//saihv.com/posts/post/</guid>
+      <guid>//saihv.github.io/posts/post/</guid>
       <description>I am currently a researcher in the Autonomous Systems group at Microsoft. My areas of focus are aerial robotics, autonomous localization/planning, computer vision and machine learning.
 In 2019, I received my PhD from the Texas A&amp;amp;M University, where I was part of the Unmanned Systems Lab, headed by Dr. Srikanth Saripalli. My PhD thesis was about collaborative localization and navigation for groups of vision based unmanned aerial vehicles. During my PhD years, I spent the summer of 2016 as a robotics intern in Millennium Engineering at the NASA Ames Research Center.</description>
     </item>
     
     <item>
       <title>About</title>
-      <link>//saihv.com/about/</link>
+      <link>//saihv.github.io/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>//saihv.com/about/</guid>
+      <guid>//saihv.github.io/about/</guid>
       <description>Hello</description>
     </item>
     
     <item>
       <title>Experience</title>
-      <link>//saihv.com/exp/</link>
+      <link>//saihv.github.io/exp/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>//saihv.com/exp/</guid>
+      <guid>//saihv.github.io/exp/</guid>
       <description>Senior Researcher : Microsoft Corporation (2019 - present)
  Senior Researcher in the Autonomous Systems and Robotics Research group.  Research Assistant : Unmanned Systems Lab, Texas A&amp;amp;M University (2017 - 2019)
  Primary PhD research: Collaborative localization and navigation for micro aerial vehicle swarms using vision. Developed a computer vision based cancer tumor tracking system in collaboration with Mayo Clinic Arizona. Winner of the 2018 TAMU Data Science contest: developed data-driven predictive models using neural networks.</description>
@@ -38,19 +38,19 @@ In 2019, I received my PhD from the Texas A&amp;amp;M University, where I was pa
     
     <item>
       <title>Publications</title>
-      <link>//saihv.com/pubs/</link>
+      <link>//saihv.github.io/pubs/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>//saihv.com/pubs/</guid>
+      <guid>//saihv.github.io/pubs/</guid>
       <description>Preprints  Rogerio Bonatti, Sai Vemprala, Shuang Ma, Felipe Frujeri, Shuhang Chen, Ashish Kapoor. &amp;ldquo;PACT: Perception-Action Causal Transformer for Autoregressive Robotics Pretraining&amp;rdquo;. [arxiv] Arthur Bucker, Luis Figueredo, Sami Haddadin, Shuang Ma, Ashish Kapoor, Sai Vemprala, Rogerio Bonatti. &amp;ldquo;LaTTe: Language Trajectory TransformEr&amp;rdquo;. [arxiv] Cheng Yao Wang, Eyal Ofek, Daniel McDuff, Oron Nir, Sai Vemprala, Ashish Kapoor, Mar Gonzalez-Franco. &amp;ldquo;CityLifeSim: A High-Fidelity Pedestrian and Vehicle Simulation with Complex Behaviors&amp;rdquo;. Weijian Xu, Shuang Ma, Yale Song, Daniel McDuff, Rogerio Bonatti, Sai Vemprala, Chunyuan Li, Jianwei Yang, Vibhav Vineet, Ratnesh Madaan, Ashish Kapoor.</description>
     </item>
     
     <item>
       <title>Research</title>
-      <link>//saihv.com/research/</link>
+      <link>//saihv.github.io/research/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>//saihv.com/research/</guid>
+      <guid>//saihv.github.io/research/</guid>
       <description>Data-driven Sensor Simulation for Realistic LiDARs  Contrastive Multimodal Pretraining for Autonomous Systems  3DB: A Framework for Debugging Computer Vision Models  Representation Learning and Reinforcement Learning for Event Cameras Event-based cameras are dynamic vision sensors that can provide asynchronous measurements of changes in per-pixel brightness at a microsecond level. This makes them significantly faster than conventional frame-based cameras, and an appealing choice for high-speed navigation. While an interesting sensor modality, this asynchronous data poses a challenge for common machine learning techniques.</description>
     </item>
     
