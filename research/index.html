@@ -19,7 +19,7 @@
     
     
     
-    <link rel="stylesheet" href="//saihv.github.io/css/main.min.2f7a216ddb22816d56619cfce22ba0c9bcea006468dc39c475212e8944dcf4f3.css"/>
+    <link rel="stylesheet" href="//saihv.github.io/css/main.min.aa2e29833362a176c91518bcb1cdc90b87a22c6f4bcf5dfe5c82501d5f3e99ab.css"/>
 
     
     
@@ -41,13 +41,13 @@
 
   <div class="nav-menu">
   
-    <a class="color-link nav-link" href="/research/">Research</a>
+    <a class="color-link nav-link" href="/exp/">experience</a>
     
   
-    <a class="color-link nav-link" href="/pubs/">Publications</a>
+    <a class="color-link nav-link" href="/research/">research</a>
     
   
-    <a class="color-link nav-link" href="/exp/">Experience</a>
+    <a class="color-link nav-link" href="/pubs/">publications</a>
     
   
 </div>
@@ -141,7 +141,7 @@
 		
 	</div>
 
-	<script src="//saihv.github.io/js/main.min.c1aee25a817e9beb1f9c4afd9d62311227a7f5e46720e404dc1dda97281f47f2.js" integrity="sha256-wa7iWoF+m+sfnEr9nWIxEien9eRnIOQE3B3alygfR/I=" crossorigin="anonymous"></script>
+	<script src="//saihv.github.io/js/main.min.a7205ef73b078c8daed6fe1b0826e8ba229ffabbb69d299d9446cf41f2c7d8aa.js" integrity="sha256-pyBe9zsHjI2u1v4bCCbouiKf+ru2nSmdlEbPQfLH2Ko=" crossorigin="anonymous"></script>
 </footer>
 </nav>
 
@@ -152,34 +152,38 @@
     
     <div>
         <p>
-        <h3 id="data-driven-sensor-simulation-for-realistic-lidars">Data-driven Sensor Simulation for Realistic LiDARs</h3>
+        <h3 id="large-language-models-for-robotics">Large Language Models for Robotics</h3>
+<p><img src="https://www.microsoft.com/en-us/research/uploads/prod/2023/02/chatgpt_robotics_gif.gif" alt=""></p>
+<p>Current robotics pipelines require specialized engineers in the loop writing code specific to each task or form factor.
+LLMs such as ChatGPT unlock a new robotics paradigm, allowing a (potentially non-technical) user to sit on the loop, providing high-level feedback to the large language model while monitoring the robot’s performance. In this research, we extended the capabilities of ChatGPT to robotics, and controlled multiple platforms such as robot arms, drones, and home assistant robots intuitively with language.</p>
 <hr>
-<h3 id="contrastive-multimodal-pretraining-for-autonomous-systems">Contrastive Multimodal Pretraining for Autonomous Systems</h3>
-<hr>
-<h3 id="3db-a-framework-for-debugging-computer-vision-models">3DB: A Framework for Debugging Computer Vision Models</h3>
+<h3 id="data-driven-sensor-simulation-for-realistic-lidars">Data-driven Sensor Simulation for Realistic LiDARs</h3>
+<p><img src="https://www.microsoft.com/en-us/research/uploads/prod/2022/09/Screen-Shot-2022-09-27-at-10.15.46-AM-1536x1099.png" alt=""></p>
+<p>While present simulations can generate high quality camera imagery, when it comes to non-visual classes of sensors, they often fall back upon simplified models. Complex sensors such as LiDAR, which lie at the heart of a majority of present day autonomous systems such as self-driving cars, are challenging to model given their dependence on aspects such as material properties of all the objects in an environment. Our data-driven sensor simulation framework uses generative models to emulate LiDAR point clouds given only RGB data.</p>
 <hr>
 <h3 id="representation-learning-and-reinforcement-learning-for-event-cameras">Representation Learning and Reinforcement Learning for Event Cameras</h3>
-<p>Event-based cameras are dynamic vision sensors that can provide asynchronous measurements of changes in per-pixel brightness at a microsecond level. This makes them significantly faster than conventional frame-based cameras, and an appealing choice for high-speed navigation. While an interesting sensor modality, this asynchronous data poses a challenge for common machine learning techniques. In this work, we present an event variational autoencoder for unsupervised representation learning from asynchronous event camera data. We also show that such pretrained representations can be beneficial for navigation, allowing for usage in reinforcement learning instead of end-to-end reward driven perception.</p>
+<p><img src="https://www.microsoft.com/en-us/research/uploads/prod/2021/03/1400x788_AirSim_noLogo.gif" alt=""></p>
+<p>Event-based cameras are dynamic vision sensors that can provide asynchronous measurements of changes in per-pixel brightness at a microsecond level. This makes them significantly faster than conventional frame-based cameras, and an appealing choice for high-speed navigation. While an interesting sensor modality, this asynchronous data poses a challenge for common machine learning techniques. This work introduces an event variational autoencoder for unsupervised representation learning from asynchronous event camera data, and subsequently a reinforcement learning pipeline to apply event camera data to navigation.</p>
 <hr>
 <h3 id="uncertainty-aware-planning-for-micro-aerial-vehicle-swarms">Uncertainty-aware Planning for Micro Aerial Vehicle Swarms</h3>
-<p><img src="http://www.saihv.com/images/coplan.png#right" alt="">
-In this project that forms the second part of my PhD thesis, I investigated the idea of collaborative uncertainty-aware path planning for vision based micro aerial vehicles. For vehicles that are equipped with cameras and can localize collaboratively (see below), a heuristic based approach attempts to capture the estimated &ldquo;quality&rdquo; of localization from various viewpoints. Evolutionary algorithms were integrated with an RRT based path planning framework to result in plans which allow the vehicles to navigate intelligently towards areas that can improve their vision based localization accuracy: such as moving only in well-lit locations, observing texture-rich objects, building denser maps before navigating etc.</p>
+<p><img src="http://www.saihv.com/images/coplan.png#right" alt=""></p>
+<p>In this project that forms the second part of my PhD thesis, I investigated the idea of collaborative uncertainty-aware path planning for vision based micro aerial vehicles. For vehicles that are equipped with cameras and can localize collaboratively (see below), this framework captures the estimated &ldquo;quality&rdquo; of localization from various viewpoints. Evolutionary algorithms were integrated with an RRT based path planning framework to result in plans which allow the vehicles to navigate intelligently towards areas that can improve their vision based localization accuracy: such as moving only in well-lit locations, observing texture-rich objects, building denser maps before navigating etc.</p>
 <hr>
 <h3 id="collaborative-localization-for-micro-aerial-vehicle-swarms">Collaborative Localization for Micro Aerial Vehicle Swarms</h3>
 <p><img src="http://www.saihv.com/images/cl.png#right" alt="">
-As the first part of my PhD thesis, I developed a collaborative localization pipeline that is applicable for a swarm of multirotor aerial vehicles with each vehicle using a monocular camera as its primary sensor. Images are captured continuously from each vehicle and Feature detection and matching are performed between the individual views, thus allowing for reconstruction of the surrounding environment. This sparse reconstruction is then used by the vehicles for individual localization in a decentralized fashion. The vehicles are also capable of computing relative poses between each other and fusing them with individual pose estimation occasionally for enhanced accuracy. Even when cross-correlations between vehicles are not tracked, covariance intersection allows for robust pose estimation between vehicles.</p>
+As the first part of my PhD thesis, I developed a collaborative localization pipeline that is applicable for a swarm of multirotor aerial vehicles with each vehicle using a monocular camera as its primary sensor. Images are captured continuously from each vehicle and used for reconstruction of the surrounding environment. This sparse reconstruction is then used by the vehicles for individual localization in a decentralized fashion, along with on-demand relative localization between vehicles. A covariance-intersection based approach enables robust fusion of individual and relative poses for overall accuracy.</p>
 <hr>
 <h3 id="drone-detection-through-depth-images">Drone Detection through Depth Images</h3>
 <p><img src="http://www.saihv.com/images/drdet.png#right" alt="">
-In collaboration with researchers from Universidad Politecnica de Madrid and MIT&rsquo;s ACL lab, I am working on a framework for detecting and localizing multirotor UAVs using depth images. A specific advantage of depth sensing versus other detection methods is that a depth map is able to provide 3D relative localization of the objects of interest, making it easier to develop strategies such as collision avoidance. In our work, a dataset of synthetic depth maps of drones has been first generated in the Microsoft AirSim UAV simulator and used to train a state-of-the-art deep learning-based drone detection model. The proposed detection technique, while trained only on simulation, has been validated in several real-life depth map sequences. It also generalizes well to multiple types of drones flying at up to 2 m/s, achieving an average precision of 98.7%, an average recall of 74.7% and a record detection range of 9.5 meters.</p>
+A specific advantage of depth sensing versus other detection methods is that a depth map is able to directly provide 3D relative localization of the objects of interest, making it easier to develop strategies such as collision avoidance. In this work, we developed a framework for detecting drones from depth images using deep learning. The proposed detection technique, while trained only on simulation, has been validated in several real-life depth map sequences. It also generalizes well to multiple types of drones flying at up to 2 m/s, achieving an average precision of 98.7%, an average recall of 74.7% and a record detection range of 9.5 meters.</p>
 <hr>
 <h3 id="real-time-cancer-tumor-tracking-for-proton-beam-therapy">Real Time Cancer Tumor Tracking for Proton Beam Therapy</h3>
 <p><img src="http://www.saihv.com/images/rtt.png#right" alt="">
-In collaboration with Mayo Clinic Arizona, I developed a real-time computer vision based tracking system for markers implanted in cancer tumors. The target application is to control a state-of-the-art proton beam targeting system according to tumor motion which is caused by the breathing cycles of the patient and other kinds of natural organ motion. It is common practice to embed tiny fiducial markers in the tumors in order to be visible in the X-ray spectrum. Computer vision techniques such as normalized cross correlation, image saliency maps etc. are utilized in conjunction with kernelized cross-correlation filters to track these tiny markers during X-ray fluoroscopy. The tracking method is able to handle high amounts of noise and various types of markers in order to achieve accurate and real time tracking.</p>
+In collaboration with Mayo Clinic Arizona, I developed a real-time computer vision based tracking system for markers implanted in tumors. It is common practice to embed tiny fiducial markers in the tumors in order to be visible in the X-ray spectrum. Computer vision techniques such as normalized cross correlation, image saliency maps etc. were utilized in conjunction with kernelized cross-correlation filters to track these tiny markers during X-ray fluoroscopy and estimate their 3D locations. The tracking method is able to handle high amounts of noise and various types of markers in order to achieve accurate and real time tracking.</p>
 <hr>
 <h3 id="ars-robotica-robots-in-theater">Ars Robotica: Robots in Theater</h3>
 <p><img src="http://www.saihv.com/images/ar.png#right" alt="">
-Ars Robotica was a collaboration between artists, theater performers and roboticists: to understand the fluidity and expressiveness of human movement and the possibility of its reproduction by robotic platforms. Using the Rethink Robotics Baxter as a test platform, we worked on defining and achieving human-like movement on the robot. We obtained movement data from expert human performers through various sensors: all the way from a Microsoft Kinect to a 12 camera high-precision, Optitrack system; which we then used as training data to construct &ldquo;primitives&rdquo;, thus forming a vocabulary for motion. We later managed to express complex movements as a temporal combination of such primitives: thus helping create a framework for autonomous interpretation and expression of human-like motion through Baxter.</p>
+Ars Robotica was a collaboration between artists and roboticists: to understand the fluidity and expressiveness of human movement. This project tried to define and achieve fluid movement on a Baxter robot. We obtained movement data from expert human performers through various sensors: all the way from a Microsoft Kinect to a 12 camera high-precision, Optitrack system; which we then used as training data to construct &ldquo;primitives&rdquo;, forming a vocabulary for motion. Later, complex movements were encoded as a temporal combination of such primitives: thus helping create a framework for autonomous interpretation and expression of human-like motion through Baxter.</p>
 <hr>
 <h3 id="micro-subglacial-lake-exploration-device">Micro Subglacial Lake Exploration Device</h3>
 <p><img src="http://www.saihv.com/images/ms.png#right" alt="">
@@ -297,7 +301,7 @@ I led a team of graduate students on a project involving hardware and software d
 		
 	</div>
 
-	<script src="//saihv.github.io/js/main.min.c1aee25a817e9beb1f9c4afd9d62311227a7f5e46720e404dc1dda97281f47f2.js" integrity="sha256-wa7iWoF+m+sfnEr9nWIxEien9eRnIOQE3B3alygfR/I=" crossorigin="anonymous"></script>
+	<script src="//saihv.github.io/js/main.min.a7205ef73b078c8daed6fe1b0826e8ba229ffabbb69d299d9446cf41f2c7d8aa.js" integrity="sha256-pyBe9zsHjI2u1v4bCCbouiKf+ru2nSmdlEbPQfLH2Ko=" crossorigin="anonymous"></script>
 </footer>
     </body>
 </html>

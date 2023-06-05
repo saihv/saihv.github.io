@@ -7,16 +7,6 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="//saihv.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title></title>
-      <link>//saihv.github.io/posts/post/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>//saihv.github.io/posts/post/</guid>
-      <description>I am currently a researcher in the Autonomous Systems group at Microsoft. My areas of focus are aerial robotics, autonomous localization/planning, computer vision and machine learning.
-In 2019, I received my PhD from the Texas A&amp;amp;M University, where I was part of the Unmanned Systems Lab, headed by Dr. Srikanth Saripalli. My PhD thesis was about collaborative localization and navigation for groups of vision based unmanned aerial vehicles. During my PhD years, I spent the summer of 2016 as a robotics intern in Millennium Engineering at the NASA Ames Research Center.</description>
-    </item>
-    
-    <item>
       <title>About</title>
       <link>//saihv.github.io/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -31,9 +21,9 @@ In 2019, I received my PhD from the Texas A&amp;amp;M University, where I was pa
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>//saihv.github.io/exp/</guid>
-      <description>Senior Researcher : Microsoft Corporation (2019 - present)
- Senior Researcher in the Autonomous Systems and Robotics Research group.  Research Assistant : Unmanned Systems Lab, Texas A&amp;amp;M University (2017 - 2019)
- Primary PhD research: Collaborative localization and navigation for micro aerial vehicle swarms using vision. Developed a computer vision based cancer tumor tracking system in collaboration with Mayo Clinic Arizona. Winner of the 2018 TAMU Data Science contest: developed data-driven predictive models using neural networks.</description>
+      <description>Co-founder : Scaled Foundations (2023 - Present)
+Building the next generation of robot intelligence. Senior Researcher : Microsoft Corporation (2019 - 2023)
+Researched and developed deep learning based perception and action models for autonomous systems. Research areas included multimodal representation learning, large language models, computer vision, and reinforcement learning. Oversaw the development of large-scale ML training pipelines. Contributed to the development of AirSim, the open source robotics simulator. Research Assistant : Unmanned Systems Lab, Texas A&amp;amp;M University (2017 - 2019)</description>
     </item>
     
     <item>
@@ -42,7 +32,7 @@ In 2019, I received my PhD from the Texas A&amp;amp;M University, where I was pa
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>//saihv.github.io/pubs/</guid>
-      <description>Preprints  Sai Vemprala*, Rogerio Bonatti*, Arthur Bucker, Ashish Kapoor. &amp;ldquo;ChatGPT for Robotics: Design Principles and Model Abilities&amp;rdquo;. [pdf] Yue Meng, Sai Vemprala, Rogerio Bonatti, Chuchu Fan, Ashish Kapoor. &amp;ldquo;ConBaT: Control Barrier Transformer for Safe Policy Learning&amp;rdquo;. Rogerio Bonatti, Sai Vemprala, Shuang Ma, Felipe Frujeri, Shuhang Chen, Ashish Kapoor. &amp;ldquo;PACT: Perception-Action Causal Transformer for Autoregressive Robotics Pretraining&amp;rdquo;. [arxiv] Weijian Xu, Shuang Ma, Yale Song, Daniel McDuff, Rogerio Bonatti, Sai Vemprala, Chunyuan Li, Jianwei Yang, Vibhav Vineet, Ratnesh Madaan, Ashish Kapoor.</description>
+      <description>Preprints Sai Vemprala*, Rogerio Bonatti*, Arthur Bucker, Ashish Kapoor. &amp;ldquo;ChatGPT for Robotics: Design Principles and Model Abilities&amp;rdquo;. [pdf] Yue Meng, Sai Vemprala, Rogerio Bonatti, Chuchu Fan, Ashish Kapoor. &amp;ldquo;ConBaT: Control Barrier Transformer for Safe Policy Learning&amp;rdquo;. [arxiv] Rogerio Bonatti, Sai Vemprala, Shuang Ma, Felipe Frujeri, Shuhang Chen, Ashish Kapoor. &amp;ldquo;PACT: Perception-Action Causal Transformer for Autoregressive Robotics Pretraining&amp;rdquo;. [arxiv] Journal Papers Sai Vemprala, Srikanth Saripalli, &amp;ldquo;Collaborative Localization for Micro Aerial Vehicles&amp;rdquo;, IEEE Access, 2021.</description>
     </item>
     
     <item>
@@ -51,7 +41,7 @@ In 2019, I received my PhD from the Texas A&amp;amp;M University, where I was pa
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>//saihv.github.io/research/</guid>
-      <description>Data-driven Sensor Simulation for Realistic LiDARs  Contrastive Multimodal Pretraining for Autonomous Systems  3DB: A Framework for Debugging Computer Vision Models  Representation Learning and Reinforcement Learning for Event Cameras Event-based cameras are dynamic vision sensors that can provide asynchronous measurements of changes in per-pixel brightness at a microsecond level. This makes them significantly faster than conventional frame-based cameras, and an appealing choice for high-speed navigation. While an interesting sensor modality, this asynchronous data poses a challenge for common machine learning techniques.</description>
+      <description>Large Language Models for Robotics Current robotics pipelines require specialized engineers in the loop writing code specific to each task or form factor. LLMs such as ChatGPT unlock a new robotics paradigm, allowing a (potentially non-technical) user to sit on the loop, providing high-level feedback to the large language model while monitoring the robot’s performance. In this research, we extended the capabilities of ChatGPT to robotics, and controlled multiple platforms such as robot arms, drones, and home assistant robots intuitively with language.</description>
     </item>
     
   </channel>
