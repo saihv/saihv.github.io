@@ -23,7 +23,8 @@
       <guid>//saihv.github.io/exp/</guid>
       <description>Co-founder : Scaled Foundations (2023 - Present)
 Building the next generation of robot intelligence. Senior Researcher : Microsoft Corporation (2019 - 2023)
-Researched and developed deep learning based perception and action models for autonomous systems. Research areas included multimodal representation learning, large language models, computer vision, and reinforcement learning. Oversaw the development of large-scale ML training pipelines. Contributed to the development of AirSim, the open source robotics simulator. Research Assistant : Unmanned Systems Lab, Texas A&amp;amp;M University (2017 - 2019)</description>
+Research areas included multimodal representation learning, large language models, computer vision, and reinforcement learning. Led the development of large-scale ML training pipelines. Contributed to the development of AirSim, the open source robotics simulator. Research Assistant : Unmanned Systems Lab, Texas A&amp;amp;M University (2017 - 2019)
+Primary PhD research: Collaborative localization and navigation for micro aerial vehicle swarms using vision.</description>
     </item>
     
     <item>
@@ -32,7 +33,7 @@ Researched and developed deep learning based perception and action models for au
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>//saihv.github.io/pubs/</guid>
-      <description>Preprints Sai Vemprala*, Rogerio Bonatti*, Arthur Bucker, Ashish Kapoor. &amp;ldquo;ChatGPT for Robotics: Design Principles and Model Abilities&amp;rdquo;. [pdf] Yue Meng, Sai Vemprala, Rogerio Bonatti, Chuchu Fan, Ashish Kapoor. &amp;ldquo;ConBaT: Control Barrier Transformer for Safe Policy Learning&amp;rdquo;. [arxiv] Rogerio Bonatti, Sai Vemprala, Shuang Ma, Felipe Frujeri, Shuhang Chen, Ashish Kapoor. &amp;ldquo;PACT: Perception-Action Causal Transformer for Autoregressive Robotics Pretraining&amp;rdquo;. [arxiv] Journal Papers Sai Vemprala, Srikanth Saripalli, &amp;ldquo;Collaborative Localization for Micro Aerial Vehicles&amp;rdquo;, IEEE Access, 2021.</description>
+      <description>Preprints Sai Vemprala*, Rogerio Bonatti*, Arthur Bucker, Ashish Kapoor. &amp;ldquo;ChatGPT for Robotics: Design Principles and Model Abilities&amp;rdquo;. [arxiv] [blog] Yue Meng, Sai Vemprala, Rogerio Bonatti, Chuchu Fan, Ashish Kapoor. &amp;ldquo;ConBaT: Control Barrier Transformer for Safe Policy Learning&amp;rdquo;. [arxiv] Journal Papers Sai Vemprala, Srikanth Saripalli, &amp;ldquo;Collaborative Localization for Micro Aerial Vehicles&amp;rdquo;, IEEE Access, 2021. [arxiv] Adrian Carrio, Jesus Tordesillas Torres, Sai Vemprala, Srikanth Saripalli, Pascual Campoy, &amp;ldquo;Onboard detection and localization of drones using depth maps&amp;rdquo;, IEEE Access, 2020.</description>
     </item>
     
     <item>
